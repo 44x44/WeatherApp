@@ -1,5 +1,5 @@
 spring.datasource.driver-class-name=org.postgresql.Driver
-spring.datasource.url=
+spring.datasource.url=jdbc:postgresql://localhost:5432/weather_app_testdb
 spring.datasource.username=
 spring.datasource.password=
 
