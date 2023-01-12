@@ -60,6 +60,9 @@ Our service is a simple REST service with which we can :
 3. Show the user information about all the measurements taken
 4. Show the user the number of rainy days over the entire measurement period
 
+The service is covered by integration tests, and the controller layer is covered by unit tests. With the current simplicity of the service logic, they don't make much sense and only serve as an example of how we would write tests in more complex applications. The tests can be found in `src/test/java/en/eliseev/WeatherApp/controller`.
+We also wrote database migrations using Liquibase. At the moment our database has not changed and is at version `v.1.0`.
+
 ### The app defines following CRUD APIs
 
 #### Register a sensor
