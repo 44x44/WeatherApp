@@ -3,8 +3,8 @@
 *.iws
 
 .idea/
-
 target/
+
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -27,3 +27,7 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+
+/src/main/resources/application.properties
+/src/test/resources/application-test.properties
