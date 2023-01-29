@@ -1,4 +1,4 @@
-# Sample REST CRUD API with Spring Boot, Postgresql, JPA and Liquibase. Covered with integration and unit tests with JUnit and Mockito
+# REST CRUD API with Spring Boot, Postgresql, JPA and Liquibase. Covered with integration and unit tests with JUnit and Mockito
 ---
 ## How to Run Application:
 ---
