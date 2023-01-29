@@ -98,7 +98,22 @@ RESPONSE: HTTP 200 (OK)
 GET /measurements
 
 Response: HTTP 200
-Content: list of JSON measurement objects
+Content: list of JSON measurement objects.
+Sample: 
+[{
+  "value": 12.7
+  "raining": false
+  "sensor": {
+    "name": "Sensor name 1"
+  }
+},
+{
+  "value": -12.7
+  "raining": true
+  "sensor": {
+    "name": "Sensor name 2"
+  }
+}]
 ```
 
 #### Get rainy days count
@@ -106,5 +121,9 @@ Content: list of JSON measurement objects
 GET /measurements/getRainyDaysCount
 
 Response: HTTP 200
-Content: JSON object containing just 1 number field "rainyDaysCount"
+Content: JSON object containing just 1 number field "rainyDaysCount".
+Sample:
+{
+  "rainyDaysCount": 12
+}
 ```
